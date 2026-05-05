@@ -1,0 +1,1010 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "phone": "13900139000",
+      "name": "李配音员",
+      "role": "voice_actor",
+      "avatar": null,
+      "totalEarnings": 2350,
+      "withdrawable": 2350,
+      "completedOrders": 15,
+      "counselor_id": 1,
+      "created_at": "2026-05-01T09:15:36.742Z"
+    }
+  ],
+  "client_users": [
+    {
+      "id": 1,
+      "phone": "13800138000",
+      "company_name": "测试甲方公司",
+      "contact_name": "张经理",
+      "verified": true,
+      "created_at": "2026-05-01T09:15:36.742Z"
+    }
+  ],
+  "counselors": [
+    {
+      "id": 1,
+      "name": "张辅导员",
+      "phone": "13800001001",
+      "email": "zhang@zhisheng.com",
+      "region": "北京",
+      "status": "active",
+      "students": 15,
+      "created_at": "2026-05-01T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "李辅导员",
+      "phone": "13800001002",
+      "email": "li@zhisheng.com",
+      "region": "上海",
+      "status": "active",
+      "students": 12,
+      "created_at": "2026-05-01T09:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "王辅导员",
+      "phone": "13800001003",
+      "email": "wang@zhisheng.com",
+      "region": "广州",
+      "status": "active",
+      "students": 10,
+      "created_at": "2026-05-01T09:00:00.000Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "client_id": 1,
+      "task_type": "children_book",
+      "content": "从前有一只小兔子，它住在森林里。小兔子每天都会去采集胡萝卜。森林里的动物们都很喜欢小兔子，因为它乐于助人。",
+      "sentences": [
+        {
+          "id": 1,
+          "text": "从前有一只小兔子，它住在森林里。",
+          "pinyin": "cóng qián yǒu yì zhī xiǎo tù zi，tā zhù zài sēn lín lǐ。"
+        },
+        {
+          "id": 2,
+          "text": "小兔子每天都会去采集胡萝卜。",
+          "pinyin": "xiǎo tù zi měi tiān dōu huì qù cǎi jí hú luó bo。"
+        },
+        {
+          "id": 3,
+          "text": "森林里的动物们都很喜欢小兔子，因为它乐于助人。",
+          "pinyin": "sēn lín lǐ de dòng wù men dōu hěn xǐ huān xiǎo tù zi，yīn wèi tā lè yú zhù rén。"
+        }
+      ],
+      "styles": [
+        "朗读",
+        "讲述"
+      ],
+      "budget": 200,
+      "deadline": "2026-06-01",
+      "status": "completed",
+      "company_name": "测试甲方公司",
+      "created_at": "2026-05-01T09:15:36.742Z"
+    },
+    {
+      "id": 2,
+      "client_id": 1,
+      "task_type": "children_book",
+      "content": "测试文稿内容。这是第二句。",
+      "sentences": [
+        {
+          "id": 1,
+          "text": "测试文稿内容。",
+          "pinyin": "ce shi wen 稿 nei rong"
+        },
+        {
+          "id": 2,
+          "text": "这是第二句。",
+          "pinyin": "zhe shi 第 er ju"
+        }
+      ],
+      "styles": [
+        "朗读"
+      ],
+      "budget": 100,
+      "deadline": "2026-06-01",
+      "status": "completed",
+      "created_at": "2026-05-01T09:27:49.418Z"
+    },
+    {
+      "id": 3,
+      "client_id": 1,
+      "task_type": "children_book",
+      "content": "某个早晨她们会在草丛中绽放，一到晚上又都悄悄凋谢了。有一天，一颗不知从哪儿来的种子发了芽，长出的嫩苗跟别的幼苗都不一样。小王子小心翼翼地观察着这株嫩苗，它说不定是猴面包树的一枝幼芽呢。",
+      "sentences": [
+        {
+          "id": 1,
+          "text": "某个早晨她们会在草丛中绽放，一到晚上又都悄悄凋谢了。",
+          "pinyin": "某 ge zao 晨 ta men hui 在 cao cong zhong 绽 fang  yi dao wan shang you dou qiao qiao 凋 xie le"
+        },
+        {
+          "id": 2,
+          "text": "有一天，一颗不知从哪儿来的种子发了芽，长出的嫩苗跟别的幼苗都不一样。",
+          "pinyin": "you yi tian  yi 颗 bu zhi cong na er lai de zhong zi fa le ya  chang chu de nen 苗 gen bie de you 苗 dou bu yi yang"
+        },
+        {
+          "id": 3,
+          "text": "小王子小心翼翼地观察着这株嫩苗，它说不定是猴面包树的一枝幼芽呢。",
+          "pinyin": "xiao wang zi xiao xin 翼 翼 di 观 察 zhuo zhe 株 nen 苗  ta shuo bu ding shi 猴 mian bao shu de yi zhi you ya ne"
+        }
+      ],
+      "styles": [],
+      "budget": 100,
+      "deadline": "2026-05-07",
+      "status": "completed",
+      "created_at": "2026-05-01T09:30:55.197Z"
+    },
+    {
+      "id": 4,
+      "client_id": 1,
+      "task_type": "children_book",
+      "content": "但是这株嫩苗很快就不再长大，渐渐含苞欲放。小王子眼看着它绽出一个很大很大的花蕾，心想这花蕾里一定会出现奇妙的景象，可是这朵花儿待在绿色的花萼里面，磨磨蹭蹭地打扮个没完。她精心挑选着自己的颜色，慢吞吞地穿上衣裙，一片一片地理顺花瓣。她不愿像虞美人那样一亮相就是满脸皱纹。她要让自己美艳照人地来到世间。噢！对。她很爱俏！她那神秘的装扮，就这样日复一日地延续着。",
+      "sentences": [
+        {
+          "id": 1,
+          "text": "但是这株嫩苗很快就不再长大，渐渐含苞欲放。",
+          "pinyin": "dan shi zhe 株 nen 苗 hen kuai jiu bu 再 chang da  渐 渐 含 苞 yu fang"
+        },
+        {
+          "id": 2,
+          "text": "小王子眼看着它绽出一个很大很大的花蕾，心想这花蕾里一定会出现奇妙的景象，可是这朵花儿待在绿色的花萼里面，磨磨蹭蹭地打扮个没完。",
+          "pinyin": "xiao wang zi yan kan zhuo ta 绽 chu yi ge hen da hen da de hua 蕾  xin xiang zhe hua 蕾 li yi ding hui chu xian qi 妙 de jing xiang  ke shi zhe duo hua er dai 在 lv se de hua 萼 li mian  磨 磨 蹭 蹭 di da 扮 ge mei wan"
+        },
+        {
+          "id": 3,
+          "text": "她精心挑选着自己的颜色，慢吞吞地穿上衣裙，一片一片地理顺花瓣。",
+          "pinyin": "ta jing xin 挑 xuan zhuo zi 己 de 颜 se  慢 tun tun di chuan shang yi 裙  yi pian yi pian di li shun hua 瓣"
+        },
+        {
+          "id": 4,
+          "text": "她不愿像虞美人那样一亮相就是满脸皱纹。",
+          "pinyin": "ta bu yuan xiang 虞 mei ren na yang yi liang xiang jiu shi 满 lian zhou 纹"
+        },
+        {
+          "id": 5,
+          "text": "她要让自己美艳照人地来到世间。",
+          "pinyin": "ta yao rang zi 己 mei 艳 zhao ren di lai dao 世 jian"
+        },
+        {
+          "id": 6,
+          "text": "噢！",
+          "pinyin": "噢"
+        },
+        {
+          "id": 7,
+          "text": "对。",
+          "pinyin": "dui"
+        },
+        {
+          "id": 8,
+          "text": "她很爱俏！",
+          "pinyin": "ta hen ai 俏"
+        },
+        {
+          "id": 9,
+          "text": "她那神秘的装扮，就这样日复一日地延续着。",
+          "pinyin": "ta na shen 秘 de zhuang 扮  jiu zhe yang ri fu yi ri di 延 xu zhuo"
+        }
+      ],
+      "styles": [],
+      "budget": 100,
+      "deadline": "2026-05-06",
+      "status": "completed",
+      "created_at": "2026-05-01T09:44:24.006Z"
+    },
+    {
+      "id": 5,
+      "client_id": 1,
+      "task_type": "children_book",
+      "content": "第一句。第二句。第三句。第四句。",
+      "sentences": [
+        {
+          "id": 1,
+          "text": "第一句。",
+          "pinyin": "第 yi ju"
+        },
+        {
+          "id": 2,
+          "text": "第二句。",
+          "pinyin": "第 er ju"
+        },
+        {
+          "id": 3,
+          "text": "第三句。",
+          "pinyin": "第 san ju"
+        },
+        {
+          "id": 4,
+          "text": "第四句。",
+          "pinyin": "第 si ju"
+        }
+      ],
+      "styles": [
+        "旁白"
+      ],
+      "budget": 100,
+      "deadline": "2026-05-06",
+      "status": "completed",
+      "created_at": "2026-05-01T10:57:01.552Z"
+    },
+    {
+      "id": 6,
+      "client_id": 1,
+      "task_type": "children_book",
+      "content": "她的头发是红萝卜色的，两根辫子向两边翘起，鼻子像个小土豆，上面满是一点一点的雀斑。鼻子下面是个不折不扣的大嘴巴，两排牙齿雪白整齐。她的衣服怪极了，是皮皮自己做的。本来要做纯蓝的，后来蓝布不够，皮皮就到处加上红色的小布条。她两条又瘦又长的腿上穿一双长袜子，一只棕色，一只黑色。她蹬着一双黑皮鞋，比她的脚长一倍。这双皮鞋是她爸爸在南美洲买的等她大起来穿，可皮皮有了这双鞋，再不想要别的鞋了。\n",
+      "sentences": [
+        {
+          "id": 1,
+          "text": "她的头发是红萝卜色的，两根辫子向两边翘起，鼻子像个小土豆，上面满是一点一点的雀斑。",
+          "pinyin": "ta de tou fa shi hong 萝 卜 se de  liang gen 辫 zi xiang liang bian 翘 qi  鼻 zi xiang ge xiao tu 豆  shang mian 满 shi yi dian yi dian de 雀 斑"
+        },
+        {
+          "id": 2,
+          "text": "鼻子下面是个不折不扣的大嘴巴，两排牙齿雪白整齐。",
+          "pinyin": "鼻 zi xia mian shi ge bu zhe bu kou de da 嘴 ba  liang pai ya 齿 xue bai 整 齐"
+        },
+        {
+          "id": 3,
+          "text": "她的衣服怪极了，是皮皮自己做的。",
+          "pinyin": "ta de yi fu 怪 ji le  shi pi pi zi 己 zuo de"
+        },
+        {
+          "id": 4,
+          "text": "本来要做纯蓝的，后来蓝布不够，皮皮就到处加上红色的小布条。",
+          "pinyin": "ben lai yao zuo 纯 lan de  hou lai lan bu bu gou  pi pi jiu dao chu jia shang hong se de xiao bu 条"
+        },
+        {
+          "id": 5,
+          "text": "她两条又瘦又长的腿上穿一双长袜子，一只棕色，一只黑色。",
+          "pinyin": "ta liang 条 you 瘦 you chang de tui shang chuan yi shuang chang wa zi  yi zhi zong se  yi zhi hei se"
+        },
+        {
+          "id": 6,
+          "text": "她蹬着一双黑皮鞋，比她的脚长一倍。",
+          "pinyin": "ta 蹬 zhuo yi shuang hei pi 鞋  bi ta de 脚 chang yi bei"
+        },
+        {
+          "id": 7,
+          "text": "这双皮鞋是她爸爸在南美洲买的等她大起来穿，可皮皮有了这双鞋，再不想要别的鞋了。",
+          "pinyin": "zhe shuang pi 鞋 shi ta ba ba 在 nan mei zhou 买 de deng ta da qi lai chuan  ke pi pi you le zhe shuang 鞋  再 bu xiang yao bie de 鞋 le"
+        }
+      ],
+      "styles": [],
+      "budget": 500,
+      "deadline": "2026-05-14",
+      "status": "completed",
+      "created_at": "2026-05-01T15:28:17.735Z"
+    },
+    {
+      "id": 7,
+      "client_id": 1,
+      "task_type": "children_book",
+      "content": "他们走着走着来到一座门那儿，再过去田野就更可爱了，可就在这座门前拦着一头牛，看来它根本不打算让开。安妮卡对它叫，汤米大胆地走上去想轰它走开一点，可是它寸步不让，只是瞪着它那双大牛眼看他们。为了解决这件事，皮皮放下篮子，走过来举起那牛放到一边。牛慌忙穿过树木蹒跚着走了。\"想不到牛长着那么个猪脑袋。\" 皮皮说着，双脚并在一起跳过了门。",
+      "sentences": [
+        {
+          "id": 1,
+          "text": "他们走着走着来到一座门那儿，再过去田野就更可爱了，可就在这座门前拦着一头牛，看来它根本不打算让开。",
+          "pinyin": "ta men zou zhuo zou zhuo lai dao yi zuo men na er  再 guo qu tian 野 jiu 更 ke ai le  ke jiu 在 zhe zuo men qian lan zhuo yi tou niu  kan lai ta gen ben bu da suan rang kai"
+        },
+        {
+          "id": 2,
+          "text": "安妮卡对它叫，汤米大胆地走上去想轰它走开一点，可是它寸步不让，只是瞪着它那双大牛眼看他们。",
+          "pinyin": "an 妮 卡 dui ta jiao  tang mi da 胆 di zou shang qu xiang 轰 ta zou kai yi dian  ke shi ta 寸 bu bu rang  zhi shi 瞪 zhuo ta na shuang da niu yan kan ta men"
+        },
+        {
+          "id": 3,
+          "text": "为了解决这件事，皮皮放下篮子，走过来举起那牛放到一边。",
+          "pinyin": "wei le xie jue zhe jian 事  pi pi fang xia 篮 zi  zou guo lai ju qi na niu fang dao yi bian"
+        },
+        {
+          "id": 4,
+          "text": "牛慌忙穿过树木蹒跚着走了。",
+          "pinyin": "niu huang mang chuan guo shu mu 蹒 跚 zhuo zou le"
+        },
+        {
+          "id": 5,
+          "text": "\"想不到牛长着那么个猪脑袋。",
+          "pinyin": "xiang bu dao niu chang zhuo na me ge 猪 脑 袋"
+        },
+        {
+          "id": 6,
+          "text": "\" 皮皮说着，双脚并在一起跳过了门。",
+          "pinyin": "pi pi shuo zhuo  shuang 脚 并 在 yi qi tiao guo le men"
+        }
+      ],
+      "styles": [],
+      "budget": 450,
+      "deadline": "2026-05-05",
+      "status": "completed",
+      "admin_feedback": "音质不够清晰，杂音较多，请重新录制。",
+      "created_at": "2026-05-02T11:42:29.990Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "task_id": 1,
+      "voice_actor_id": 1,
+      "status": "completed",
+      "created_at": "2026-05-01T09:18:34.885Z",
+      "completed_at": "2026-05-01T11:18:47.296Z"
+    },
+    {
+      "id": 2,
+      "task_id": 3,
+      "voice_actor_id": 1,
+      "status": "completed",
+      "created_at": "2026-05-01T09:45:14.370Z",
+      "completed_at": "2026-05-02T12:58:19.300Z",
+      "admin_feedback": "测试"
+    },
+    {
+      "id": 3,
+      "task_id": 2,
+      "client_id": 1,
+      "voice_actor_id": 1,
+      "voice_actor_name": "李配音员",
+      "status": "completed",
+      "created_at": "2026-05-01T11:30:00.000Z",
+      "submitted_at": "2026-05-01T14:57:50.510Z",
+      "completed_at": "2026-05-02T13:02:23.442Z"
+    },
+    {
+      "id": 4,
+      "task_id": 4,
+      "client_id": 1,
+      "voice_actor_id": 1,
+      "voice_actor_name": "李配音员",
+      "status": "completed",
+      "created_at": "2026-05-01T11:30:00.000Z",
+      "completed_at": "2026-05-01T11:45:28.786Z"
+    },
+    {
+      "id": 5,
+      "task_id": 5,
+      "client_id": 1,
+      "voice_actor_id": 1,
+      "voice_actor_name": "李配音员",
+      "status": "completed",
+      "created_at": "2026-05-01T11:30:00.000Z",
+      "completed_at": "2026-05-01T13:40:20.513Z",
+      "submitted_at": "2026-05-01T13:39:28.311Z"
+    },
+    {
+      "id": 6,
+      "task_id": 6,
+      "client_id": 1,
+      "client_name": "企业用户",
+      "voice_actor_id": 1,
+      "voice_actor_name": "李配音员",
+      "task_type": "children_book",
+      "task_content": "她的头发是红萝卜色的，两根辫子向两边翘起，鼻子像个小土豆，上面满是一点一点的雀斑。鼻子下面是个不折不扣的大嘴巴，两排牙齿雪白整齐。她的衣服怪极了，是皮皮自己做的。本来要做纯蓝的，后来蓝布不够，皮皮就到处加上红色的小布条。她两条又瘦又长的腿上穿一双长袜子，一只棕色，一只黑色。她蹬着一双黑皮鞋，比她的脚长一倍。这双皮鞋是她爸爸在南美洲买的等她大起来穿，可皮皮有了这双鞋，再不想要别的鞋了。\n",
+      "task_sentences": [
+        {
+          "id": 1,
+          "text": "她的头发是红萝卜色的，两根辫子向两边翘起，鼻子像个小土豆，上面满是一点一点的雀斑。",
+          "pinyin": "ta de tou fa shi hong 萝 卜 se de  liang gen 辫 zi xiang liang bian 翘 qi  鼻 zi xiang ge xiao tu 豆  shang mian 满 shi yi dian yi dian de 雀 斑"
+        },
+        {
+          "id": 2,
+          "text": "鼻子下面是个不折不扣的大嘴巴，两排牙齿雪白整齐。",
+          "pinyin": "鼻 zi xia mian shi ge bu zhe bu kou de da 嘴 ba  liang pai ya 齿 xue bai 整 齐"
+        },
+        {
+          "id": 3,
+          "text": "她的衣服怪极了，是皮皮自己做的。",
+          "pinyin": "ta de yi fu 怪 ji le  shi pi pi zi 己 zuo de"
+        },
+        {
+          "id": 4,
+          "text": "本来要做纯蓝的，后来蓝布不够，皮皮就到处加上红色的小布条。",
+          "pinyin": "ben lai yao zuo 纯 lan de  hou lai lan bu bu gou  pi pi jiu dao chu jia shang hong se de xiao bu 条"
+        },
+        {
+          "id": 5,
+          "text": "她两条又瘦又长的腿上穿一双长袜子，一只棕色，一只黑色。",
+          "pinyin": "ta liang 条 you 瘦 you chang de tui shang chuan yi shuang chang wa zi  yi zhi zong se  yi zhi hei se"
+        },
+        {
+          "id": 6,
+          "text": "她蹬着一双黑皮鞋，比她的脚长一倍。",
+          "pinyin": "ta 蹬 zhuo yi shuang hei pi 鞋  bi ta de 脚 chang yi bei"
+        },
+        {
+          "id": 7,
+          "text": "这双皮鞋是她爸爸在南美洲买的等她大起来穿，可皮皮有了这双鞋，再不想要别的鞋了。",
+          "pinyin": "zhe shuang pi 鞋 shi ta ba ba 在 nan mei zhou 买 de deng ta da qi lai chuan  ke pi pi you le zhe shuang 鞋  再 bu xiang yao bie de 鞋 le"
+        }
+      ],
+      "budget": 500,
+      "status": "completed",
+      "recordings": [],
+      "created_at": "2026-05-01T15:30:00.124Z",
+      "submitted_at": "2026-05-01T15:30:38.339Z",
+      "completed_at": "2026-05-01T15:31:31.374Z"
+    },
+    {
+      "id": 7,
+      "task_id": 7,
+      "client_id": 1,
+      "client_name": "企业用户",
+      "voice_actor_id": 1,
+      "voice_actor_name": "李配音员",
+      "task_type": "children_book",
+      "task_content": "他们走着走着来到一座门那儿，再过去田野就更可爱了，可就在这座门前拦着一头牛，看来它根本不打算让开。安妮卡对它叫，汤米大胆地走上去想轰它走开一点，可是它寸步不让，只是瞪着它那双大牛眼看他们。为了解决这件事，皮皮放下篮子，走过来举起那牛放到一边。牛慌忙穿过树木蹒跚着走了。\"想不到牛长着那么个猪脑袋。\" 皮皮说着，双脚并在一起跳过了门。",
+      "task_sentences": [
+        {
+          "id": 1,
+          "text": "他们走着走着来到一座门那儿，再过去田野就更可爱了，可就在这座门前拦着一头牛，看来它根本不打算让开。",
+          "pinyin": "ta men zou zhuo zou zhuo lai dao yi zuo men na er  再 guo qu tian 野 jiu 更 ke ai le  ke jiu 在 zhe zuo men qian lan zhuo yi tou niu  kan lai ta gen ben bu da suan rang kai"
+        },
+        {
+          "id": 2,
+          "text": "安妮卡对它叫，汤米大胆地走上去想轰它走开一点，可是它寸步不让，只是瞪着它那双大牛眼看他们。",
+          "pinyin": "an 妮 卡 dui ta jiao  tang mi da 胆 di zou shang qu xiang 轰 ta zou kai yi dian  ke shi ta 寸 bu bu rang  zhi shi 瞪 zhuo ta na shuang da niu yan kan ta men"
+        },
+        {
+          "id": 3,
+          "text": "为了解决这件事，皮皮放下篮子，走过来举起那牛放到一边。",
+          "pinyin": "wei le xie jue zhe jian 事  pi pi fang xia 篮 zi  zou guo lai ju qi na niu fang dao yi bian"
+        },
+        {
+          "id": 4,
+          "text": "牛慌忙穿过树木蹒跚着走了。",
+          "pinyin": "niu huang mang chuan guo shu mu 蹒 跚 zhuo zou le"
+        },
+        {
+          "id": 5,
+          "text": "\"想不到牛长着那么个猪脑袋。",
+          "pinyin": "xiang bu dao niu chang zhuo na me ge 猪 脑 袋"
+        },
+        {
+          "id": 6,
+          "text": "\" 皮皮说着，双脚并在一起跳过了门。",
+          "pinyin": "pi pi shuo zhuo  shuang 脚 并 在 yi qi tiao guo le men"
+        }
+      ],
+      "budget": 450,
+      "status": "completed",
+      "admin_feedback": "音质不够清晰，杂音较多，请重新录制。",
+      "recordings": [],
+      "created_at": "2026-05-02T11:45:00.000Z",
+      "submitted_at": "2026-05-02T12:57:05.262Z",
+      "completed_at": "2026-05-02T12:58:28.159Z"
+    },
+    {
+      "id": 8,
+      "task_id": 2,
+      "client_id": 1,
+      "client_name": "测试甲方公司",
+      "task_type": "children_book",
+      "task_content": "这是一个测试订单，用于验证页面显示逻辑。",
+      "task_sentences": [
+        {
+          "id": 1,
+          "text": "这是一个测试订单。",
+          "pinyin": "zhe shi yi ge ce shi ding dan"
+        }
+      ],
+      "budget": 100,
+      "status": "completed",
+      "recordings": [],
+      "created_at": "2026-05-02T12:00:00.000Z",
+      "voice_actor_id": 1,
+      "voice_actor_name": "李配音员",
+      "submitted_at": "2026-05-02T12:49:08.236Z",
+      "completed_at": "2026-05-02T13:02:17.955Z"
+    }
+  ],
+  "messages": [],
+  "notifications": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "任务接单成功",
+      "content": "您已成功接取任务，请按时完成",
+      "is_read": false,
+      "created_at": "2026-05-01T09:18:34.885Z"
+    },
+    {
+      "id": 2,
+      "user_id": 0,
+      "user_type": "admin",
+      "title": "新任务待审核",
+      "content": "有新任务发布，等待平台审核",
+      "is_read": false,
+      "created_at": "2026-05-01T09:27:49.418Z"
+    },
+    {
+      "id": 3,
+      "user_id": 0,
+      "user_type": "admin",
+      "title": "新任务待审核",
+      "content": "有新任务发布，等待平台审核",
+      "is_read": false,
+      "created_at": "2026-05-01T09:30:55.197Z"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "user_type": "client",
+      "title": "任务已通过审核",
+      "content": "您的任务已审核通过，可在任务广场接单",
+      "is_read": false,
+      "created_at": "2026-05-01T09:39:50.557Z"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "user_type": "client",
+      "title": "任务已通过审核",
+      "content": "您的任务已审核通过，可在任务广场接单",
+      "is_read": false,
+      "created_at": "2026-05-01T09:40:23.254Z"
+    },
+    {
+      "id": 6,
+      "user_id": 0,
+      "user_type": "admin",
+      "title": "新任务待审核",
+      "content": "有新任务发布，等待平台审核",
+      "is_read": false,
+      "created_at": "2026-05-01T09:44:24.006Z"
+    },
+    {
+      "id": 7,
+      "user_id": 1,
+      "user_type": "client",
+      "title": "任务已通过审核",
+      "content": "您的任务已审核通过，可在任务广场接单",
+      "is_read": false,
+      "created_at": "2026-05-01T09:44:52.862Z"
+    },
+    {
+      "id": 8,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "任务接单成功",
+      "content": "您已成功接取任务，请按时完成",
+      "is_read": false,
+      "created_at": "2026-05-01T09:45:14.371Z"
+    },
+    {
+      "id": 9,
+      "user_id": 0,
+      "user_type": "admin",
+      "title": "新任务待审核",
+      "content": "有新任务发布，等待平台审核",
+      "is_read": false,
+      "created_at": "2026-05-01T10:57:01.552Z"
+    },
+    {
+      "id": 10,
+      "user_id": 1,
+      "user_type": "client",
+      "title": "任务已通过审核",
+      "content": "您的任务已审核通过，可在任务广场接单",
+      "is_read": false,
+      "created_at": "2026-05-01T11:01:31.793Z"
+    },
+    {
+      "id": 11,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "新任务分派",
+      "content": "您已被分配新任务，请前往任务广场查看",
+      "is_read": false,
+      "created_at": "2026-05-01T11:25:32.567Z"
+    },
+    {
+      "id": 12,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "新任务分派",
+      "content": "您已被分配新任务，请前往任务广场查看",
+      "is_read": false,
+      "created_at": "2026-05-01T11:40:16.019Z"
+    },
+    {
+      "id": 13,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "新任务分派",
+      "content": "您已被分配新任务，请前往任务广场查看",
+      "is_read": false,
+      "created_at": "2026-05-01T11:40:40.531Z"
+    },
+    {
+      "id": 14,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "收益到账",
+      "content": "恭喜！您已完成任务，获得收益 ¥100，已加入可提现金额",
+      "is_read": false,
+      "created_at": "2026-05-01T11:45:28.788Z"
+    },
+    {
+      "id": 15,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "新任务分派",
+      "content": "您已被分配新任务，请前往任务广场查看",
+      "is_read": false,
+      "created_at": "2026-05-01T11:57:45.209Z"
+    },
+    {
+      "id": 16,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "收益到账",
+      "content": "恭喜！您已完成任务，获得收益 ¥100，已加入可提现金额",
+      "is_read": false,
+      "created_at": "2026-05-01T12:28:29.715Z"
+    },
+    {
+      "id": 17,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "收益到账",
+      "content": "恭喜！您已完成任务，获得收益 ¥100，已加入可提现金额",
+      "is_read": false,
+      "created_at": "2026-05-01T12:59:22.289Z"
+    },
+    {
+      "id": 18,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "收益到账",
+      "content": "恭喜！您已完成任务，获得收益 ¥100，已加入可提现金额",
+      "is_read": false,
+      "created_at": "2026-05-01T13:20:40.095Z"
+    },
+    {
+      "id": 19,
+      "user_id": 1,
+      "user_type": "client",
+      "title": "作品已提交",
+      "content": "有配音员提交了作品，请前往验收",
+      "is_read": false,
+      "created_at": "2026-05-01T13:39:28.312Z"
+    },
+    {
+      "id": 20,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "作品审核通过",
+      "content": "您的作品已通过质控审核，正在等待甲方验收，请耐心等待",
+      "is_read": false,
+      "created_at": "2026-05-01T13:40:04.927Z"
+    },
+    {
+      "id": 21,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "收益到账",
+      "content": "恭喜！您已完成任务，获得收益 ¥100，已加入可提现金额",
+      "is_read": false,
+      "created_at": "2026-05-01T13:40:20.515Z"
+    },
+    {
+      "id": 22,
+      "user_id": 0,
+      "user_type": "counselor",
+      "title": "收到帮扶求助",
+      "content": "测试用户提交了帮扶求助：薪资结算问题",
+      "related_id": "help-1",
+      "is_read": false,
+      "created_at": "2026-05-01T13:49:50.727Z"
+    },
+    {
+      "id": 23,
+      "user_id": 0,
+      "user_type": "counselor",
+      "title": "收到帮扶求助",
+      "content": "李配音员提交了帮扶求助：忘记账号密码",
+      "related_id": "help-2",
+      "is_read": false,
+      "created_at": "2026-05-01T13:57:45.837Z"
+    },
+    {
+      "id": 24,
+      "user_id": 1,
+      "user_type": "client",
+      "title": "作品已提交",
+      "content": "有配音员提交了作品，请前往验收",
+      "is_read": false,
+      "created_at": "2026-05-01T14:57:50.511Z"
+    },
+    {
+      "id": 25,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "作品审核通过",
+      "content": "您的作品已通过质控审核，正在等待甲方验收，请耐心等待",
+      "is_read": false,
+      "created_at": "2026-05-01T14:58:31.946Z"
+    },
+    {
+      "id": 26,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "收益到账",
+      "content": "恭喜！您已完成任务，获得收益 ¥100，已加入可提现金额",
+      "is_read": false,
+      "created_at": "2026-05-01T14:58:45.817Z"
+    },
+    {
+      "id": 27,
+      "user_id": 0,
+      "user_type": "admin",
+      "title": "新任务待审核",
+      "content": "有新任务发布，等待平台审核",
+      "is_read": false,
+      "created_at": "2026-05-01T15:28:17.737Z"
+    },
+    {
+      "id": 28,
+      "user_id": 1,
+      "user_type": "client",
+      "title": "任务已通过审核",
+      "content": "您的任务已审核通过，现在等待配音员接单",
+      "is_read": false,
+      "created_at": "2026-05-01T15:30:00.121Z"
+    },
+    {
+      "id": 29,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "新任务分派",
+      "content": "您已被分配新任务，请前往任务广场查看",
+      "is_read": false,
+      "created_at": "2026-05-01T15:30:08.640Z"
+    },
+    {
+      "id": 30,
+      "user_id": 1,
+      "user_type": "client",
+      "title": "作品已提交",
+      "content": "有配音员提交了作品，请前往验收",
+      "is_read": false,
+      "created_at": "2026-05-01T15:30:38.339Z"
+    },
+    {
+      "id": 31,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "作品审核通过",
+      "content": "您的作品已通过质控审核，正在等待甲方验收，请耐心等待",
+      "is_read": false,
+      "created_at": "2026-05-01T15:30:59.097Z"
+    },
+    {
+      "id": 32,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "收益到账",
+      "content": "恭喜！您已完成任务，获得收益 ¥100，已加入可提现金额",
+      "is_read": false,
+      "created_at": "2026-05-01T15:31:19.930Z"
+    },
+    {
+      "id": 33,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "收益到账",
+      "content": "恭喜！您已完成任务，获得收益 ¥500，已加入可提现金额",
+      "is_read": false,
+      "created_at": "2026-05-01T15:31:31.377Z"
+    },
+    {
+      "id": 34,
+      "user_id": 0,
+      "user_type": "admin",
+      "title": "新任务待审核",
+      "content": "有新任务发布，等待平台审核",
+      "is_read": false,
+      "created_at": "2026-05-02T11:42:29.991Z"
+    },
+    {
+      "id": 35,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "新任务分派",
+      "content": "您已被分配新任务，请前往任务广场查看",
+      "is_read": false,
+      "created_at": "2026-05-02T12:48:40.810Z"
+    },
+    {
+      "id": 36,
+      "user_id": 1,
+      "user_type": "client",
+      "title": "作品已提交",
+      "content": "有配音员提交了作品，请前往验收",
+      "is_read": false,
+      "created_at": "2026-05-02T12:49:08.236Z"
+    },
+    {
+      "id": 37,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "作品审核通过",
+      "content": "您的作品已通过质控审核，正在等待甲方验收，请耐心等待",
+      "is_read": false,
+      "created_at": "2026-05-02T12:49:23.558Z"
+    },
+    {
+      "id": 38,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "作品被驳回",
+      "content": "您的作品需要修改，原因：测试",
+      "is_read": false,
+      "created_at": "2026-05-02T12:49:49.964Z"
+    },
+    {
+      "id": 39,
+      "user_id": 1,
+      "user_type": "client",
+      "title": "作品已提交",
+      "content": "有配音员提交了作品，请前往验收",
+      "is_read": false,
+      "created_at": "2026-05-02T12:57:05.263Z"
+    },
+    {
+      "id": 40,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "作品审核通过",
+      "content": "您的作品已通过质控审核，正在等待甲方验收，请耐心等待",
+      "is_read": false,
+      "created_at": "2026-05-02T12:57:41.294Z"
+    },
+    {
+      "id": 41,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "收益到账",
+      "content": "恭喜！您已完成任务，获得收益 ¥100，已加入可提现金额",
+      "is_read": false,
+      "created_at": "2026-05-02T12:58:08.339Z"
+    },
+    {
+      "id": 42,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "收益到账",
+      "content": "恭喜！您已完成任务，获得收益 ¥100，已加入可提现金额",
+      "is_read": false,
+      "created_at": "2026-05-02T12:58:19.301Z"
+    },
+    {
+      "id": 43,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "收益到账",
+      "content": "恭喜！您已完成任务，获得收益 ¥450，已加入可提现金额",
+      "is_read": false,
+      "created_at": "2026-05-02T12:58:28.160Z"
+    },
+    {
+      "id": 44,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "收益到账",
+      "content": "恭喜！您已完成任务，获得收益 ¥100，已加入可提现金额",
+      "is_read": false,
+      "created_at": "2026-05-02T13:02:17.956Z"
+    },
+    {
+      "id": 45,
+      "user_id": 1,
+      "user_type": "voice_actor",
+      "title": "收益到账",
+      "content": "恭喜！您已完成任务，获得收益 ¥100，已加入可提现金额",
+      "is_read": false,
+      "created_at": "2026-05-02T13:02:23.444Z"
+    }
+  ],
+  "helpRequests": [],
+  "expenses": [
+    {
+      "id": 1,
+      "client_id": 1,
+      "order_id": 2,
+      "task_id": 3,
+      "voice_actor_id": 1,
+      "amount": 100,
+      "description": "订单 #2 - 配音服务",
+      "created_at": "2026-05-01T14:58:45.818Z"
+    },
+    {
+      "id": 2,
+      "client_id": 1,
+      "order_id": 2,
+      "task_id": 3,
+      "voice_actor_id": 1,
+      "amount": 100,
+      "description": "订单 #2 - 配音服务",
+      "created_at": "2026-05-01T15:31:19.930Z"
+    },
+    {
+      "id": 3,
+      "client_id": 1,
+      "order_id": 6,
+      "task_id": 6,
+      "voice_actor_id": 1,
+      "amount": 500,
+      "description": "订单 #6 - 配音服务",
+      "created_at": "2026-05-01T15:31:31.379Z"
+    },
+    {
+      "id": 4,
+      "client_id": 1,
+      "order_id": 2,
+      "task_id": 3,
+      "voice_actor_id": 1,
+      "amount": 100,
+      "description": "订单 #2 - 配音服务",
+      "created_at": "2026-05-02T12:58:08.340Z"
+    },
+    {
+      "id": 5,
+      "client_id": 1,
+      "order_id": 2,
+      "task_id": 3,
+      "voice_actor_id": 1,
+      "amount": 100,
+      "description": "订单 #2 - 配音服务",
+      "created_at": "2026-05-02T12:58:19.302Z"
+    },
+    {
+      "id": 6,
+      "client_id": 1,
+      "order_id": 7,
+      "task_id": 7,
+      "voice_actor_id": 1,
+      "amount": 450,
+      "description": "订单 #7 - 配音服务",
+      "created_at": "2026-05-02T12:58:28.161Z"
+    },
+    {
+      "id": 7,
+      "client_id": 1,
+      "order_id": 8,
+      "task_id": 2,
+      "voice_actor_id": 1,
+      "amount": 100,
+      "description": "订单 #8 - 配音服务",
+      "created_at": "2026-05-02T13:02:17.957Z"
+    },
+    {
+      "id": 8,
+      "client_id": 1,
+      "order_id": 3,
+      "task_id": 2,
+      "voice_actor_id": 1,
+      "amount": 100,
+      "description": "订单 #3 - 配音服务",
+      "created_at": "2026-05-02T13:02:23.445Z"
+    }
+  ],
+  "_id_counters": {
+    "users": 2,
+    "client_users": 2,
+    "counselors": 4,
+    "tasks": 8,
+    "orders": 9,
+    "messages": 1,
+    "notifications": 46,
+    "helpRequests": 1,
+    "expenses": 9
+  }
+}
