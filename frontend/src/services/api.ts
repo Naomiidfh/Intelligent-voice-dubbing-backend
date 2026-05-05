@@ -5,7 +5,7 @@ const getApiBase = () => {
     return '/api';
   }
   // 生产环境使用 Render 后端地址（你部署后需要改成自己的）
-  return import.meta.env.VITE_API_URL || 'https://your-render-backend.onrender.com';
+  return import.meta.env.VITE_API_URL || 'https://intelligent-voice-dubbing-backend.onrender.com';
 };
 
 const API_BASE = getApiBase();
